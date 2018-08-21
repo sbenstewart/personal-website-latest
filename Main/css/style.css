@@ -1,0 +1,14 @@
+canvas {
+	display: block;
+	/*max-width: 75vmin;*/
+	background-color: #e45e5e;
+    width:100%;
+}
+
+.container {
+
+	display: block;
+	/*max-width: 75vmin;*/
+	background-color: #e45e5e;
+    width:100%;
+}
