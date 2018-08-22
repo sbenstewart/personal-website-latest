@@ -37,6 +37,78 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
 
+
+
+
+
+<!--preloader
+======================================= -->
+
+<style>
+/* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+.relative {
+position: relative;
+}
+
+.loader-ring {
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -120px 0 0 -120px;
+width: 240px;
+height: 240px;
+}
+
+.loader-ring-light {
+width: 240px;
+height: 240px;
+-moz-border-radius: 240px;
+-webkit-border-radius: 240px;
+border-radius: 240px;
+-moz-box-shadow: 0 4px 0 #ff0000 inset;
+-webkit-box-shadow: 0 4px 0 #ff0000 inset;
+box-shadow: 0 4px 0 #ff0000 inset;
+animation: rotate-360 2s linear infinite;
+}
+
+.loader-ring-track {
+position: absolute;
+top: 0;
+left: 0;
+width: 240px;
+height: 240px;
+-moz-border-radius: 240px;
+-webkit-border-radius: 240px;
+border-radius: 240px;
+-moz-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3) inset;
+-webkit-box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3) inset;
+box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.3) inset;
+}
+
+@keyframes rotate-360 {
+from {
+-moz-transform: rotate(0);
+-ms-transform: rotate(0);
+-webkit-transform: rotate(0);
+transform: rotate(0);
+}
+to {
+-moz-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+}
+body {
+background-color: rgba(0, 0, 0, 0.87);
+}
+
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+
+
 </head>
 
 <body id="top">
@@ -712,15 +784,14 @@
     ================================================== -->
     <div id="preloader">
         <div id="loader">
-            <div class="line-scale-pulse-out">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+          <div class='loader-ring'>
+          <div class='loader-ring-light'></div>
+          <div class='loader-ring-track'></div>
+        </div>
         </div>
     </div>
+
+
 
 
     <!-- Java Script
