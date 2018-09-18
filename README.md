@@ -6,6 +6,6 @@ My website.
 ## More to convey
 The content must strictly not be reproduced but the styling can be.
 <br>
-Always check with the commit messages to check for the changes.
+Always view with the commit messages to check for the changes.
 <br>
 <b>Have a great day:)</b>
