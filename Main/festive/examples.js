@@ -6,6 +6,7 @@ AFRAME.registerComponent('trigger', {
     document.addEventListener('click', () => {
       this.trigger();
     });
+
   },
 
   trigger: function() {
@@ -19,3 +20,5 @@ AFRAME.registerComponent('trigger', {
     });
   }
 });
+
+window.onclick = trigger();

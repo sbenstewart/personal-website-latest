@@ -7,13 +7,16 @@
     <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
     <script src="aframe-particleplayer-component.min.js"></script>
     <script src="examples.js"></script>
-    <style>.heart{color:#e25555;font-size:25px;}</style>
+    <style>.heart{color:#e25555;font-size:10px;}</style>
     <link rel="stylesheet" href="examples.css"></link>
   </head>
   <body>
-    <div id="help"><h2>Wishing you a merry Christmas and a happy NewYear.</h2><br>Press SPACE or CLICK for firework</div>
-    <div id="wish"><h2>Silas, Mary, Ben and Herrin.</h2>
-      Made with <span class="heart">❤</span> at St. Mary's Residency.
+    <div class="overlay" onclick="trigger()"></div>
+    <div id="help"><h2>Wishing you a merry Christmas and a happy NewYear.</h2></div><div id="help1"><br>Press SPACE or CLICK on the black background for fireworks.</div>
+    <div id="wish"><h4>Silas, Mary, Ben and Herrin.</h4>
+      </div>
+      <div id="wish1">
+      <h6>Made with <span class="heart">❤</span> at St.Mary's Residency.</h6>
     </div>
 
     <a-scene background="color: #222">
