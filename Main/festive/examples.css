@@ -7,3 +7,13 @@
   width: 100%;
   z-index: 99999;
 }
+
+#wish {
+  color: #ccc;
+  font: 20px sans-serif;
+  bottom: 2em;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 99999;
+}
