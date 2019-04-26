@@ -8,12 +8,6 @@ jQuery(document).ready(function($) {
 
 	"use strict";
 
-  navigator.serviceWorker && navigator.serviceWorker.register('./js/sw.js').then(function(registration) {
-  console.log('Excellent, registered with scope: ', registration.scope);
-});
-
-
-
 	var siteMenuClone = function() {
 
 		$('.js-clone-nav').each(function() {
