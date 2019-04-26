@@ -8,9 +8,9 @@
   "background_color": "#232531",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "16x16",
-      "type": "image/ico"
+      "src": "icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
     }
   ]
 }
