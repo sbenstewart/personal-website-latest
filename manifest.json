@@ -1,0 +1,16 @@
+{
+  "name": "Ben Stewart",
+  "short_name": "Ben Stewart",
+  "display": "standalone",
+   "description": "Get to know about Ben here.",
+  "start_url": "/",
+  "theme_color": "#cfcfd1",
+  "background_color": "#232531",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "type": "image/ico"
+    }
+  ]
+}
