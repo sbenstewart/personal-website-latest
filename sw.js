@@ -17,6 +17,8 @@ self.addEventListener('install', function(e) {
        'fonts/flaticon/font/flaticon.css',
        'css/aos.css',
        'css/style.css',
+       'css/micons/micons.css',
+       'css/micons/fonts/icomoon.woff',
        'js/jquery-3.3.1.min.js',
        'js/jquery-migrate-3.0.1.min.js',
        'js/jquery-ui.js',
@@ -30,8 +32,18 @@ self.addEventListener('install', function(e) {
        'js/aos.js',
        'js/main.js',
        'css/font-awesome/css/font-awesome.min.css',
+       'css/font-awesome/fonts/fontawesome-webfont.ttf',
        'fonts/icomoon/fonts/icomoon.ttf',
-       'fonts/icomoon/fonts/icomoon.woff'
+       'fonts/icomoon/fonts/icomoon.woff',
+       'fonts/icomoon/fonts/icomoon.eot',
+       'favicon.ico',
+       'manifest.json',
+       'icon.png',
+       'icon-512.png',
+       'images/basetemplate_1.png',
+       'images/basetemplate_2.png',
+       'images/basetemplate_3.png',
+       'images/basetemplate_4.png'
      ]);
    })
  );
