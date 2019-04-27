@@ -6,7 +6,17 @@ self.addEventListener('install', function(e) {
    caches.open('sbenstewart').then(function(cache) {
      return cache.addAll([
        '/',
-       '/index.html'
+       '/index.html',
+       'fonts/icomoon/style.css',
+       'css/bootstrap.min.css',
+       'css/magnific-popup.css',
+       'css/jquery-ui.css',
+       'css/owl.carousel.min.css',
+       'css/owl.theme.default.min.css',
+       'css/bootstrap-datepicker.css',
+       'fonts/flaticon/font/flaticon.css',
+       'css/aos.css',
+       'css/style.css'
      ]);
    })
  );
