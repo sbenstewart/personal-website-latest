@@ -31,13 +31,7 @@ self.addEventListener('install', function(e) {
        'js/main.js',
        'css/font-awesome/css/font-awesome.min.css',
        'fonts/icomoon/fonts/icomoon.ttf',
-       'fonts/icomoon/fonts/icomoon.woff',
-       'images/basetemplate_1.png',
-       'images/basetemplate_2.png',
-       'images/basetemplate_3.png',
-       'images/basetemplate_4.png',
-       'images/sam.jpg',
-       'images/arun.jpg'
+       'fonts/icomoon/fonts/icomoon.woff'
      ]);
    })
  );
