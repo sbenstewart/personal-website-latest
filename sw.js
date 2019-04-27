@@ -28,7 +28,10 @@ self.addEventListener('install', function(e) {
        'js/jquery.magnific-popup.min.js',
        'js/bootstrap-datepicker.min.js',
        'js/aos.js',
-       'js/main.js'
+       'js/main.js',
+       'css/font-awesome/css/font-awesome.min.css',
+       'fonts/icomoon/fonts/icomoon.ttf',
+       'fonts/icomoon/fonts/icomoon.woff'
      ]);
    })
  );
