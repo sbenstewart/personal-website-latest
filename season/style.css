@@ -59,13 +59,13 @@ svg {
 }
 .message h1 {
   font-style: normal;
-  font-size: 4rem;
+  font-size: 2.5rem;
   margin-bottom: -0.5em;
   white-space: nowrap;
 }
 .message h2 {
 	font-style: normal;
-	font-size: 3rem;
+	font-size: 2rem;
 	margin-bottom: 0;
 	white-space: nowrap;
   }
