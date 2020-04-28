@@ -22,13 +22,18 @@
 
 
   <div class="grid-container">
-    <model-viewer class="a"
+    <model-viewer id="reveal" class="a"
                   src="https://cdn.glitch.com/75e550ca-60e7-47d6-aaf8-f475c0e07fc4%2Farticle.glb?v=1587987548925"
                   alt="the-article"
                   background-color="#232538"
-                  shadow-intensity="1"
                   camera-controls
-                  auto-rotate></model-viewer>
+                  auto-rotate
+                  auto-rotate-delay="1500"
+                  poster
+                  exposure="0.35"
+                  stage-light-intensity="0.2" 
+                  environment-intensity="0.75"
+                  preload></model-viewer>
   </div>
 
   <footer class="footer">
